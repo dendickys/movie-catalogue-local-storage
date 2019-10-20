@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="title_movies">Film</string>
+    <string name="title_tv_show">Serial Tv</string>
+    <string name="title_favorites">Favorit</string>
+    <string name="tab_favorites_movies">Film</string>
+    <string name="tab_favorites_tv_show">Serial Tv</string>
+    <string name="movie_name">Judul Film</string>
+    <string name="tvshow_name">Judul Serial Tv</string>
+    <string name="poster_movies">Poster Film</string>
+    <string name="poster_tv_show">Poster Serial Tv</string>
+    <string name="release_date">Tanggal rilis:</string>
+    <string name="_year">Tahun</string>
+    <string name="_vote_average">Suara Rata-rata</string>
+    <string name="_overview">Deskripsi</string>
+    <string name="overview">Deskripsi</string>
+    <string name="setting_language">Pengaturan Bahasa</string>
+    <string name="added_to_favorite">Ditambahkan ke Favorit</string>
+    <string name="removed_from_favorite">Dihapus dari Favorit</string>
+</resources>

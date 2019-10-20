@@ -1,6 +1,20 @@
 <resources>
-    <string name="app_name">Movie Catalogue (Local Storage)</string>
+    <string name="app_name">Movie Catalogue</string>
     <string name="title_movies">Movies</string>
     <string name="title_tv_show">Tv Show</string>
     <string name="title_favorites">Favorites</string>
+    <string name="tab_favorites_movies">Movies</string>
+    <string name="tab_favorites_tv_show">Tv Show</string>
+    <string name="movie_name">Movie Title</string>
+    <string name="tvshow_name">Tv Show Title</string>
+    <string name="poster_movies">Movies Poster</string>
+    <string name="poster_tv_show">Tv Show Poster</string>
+    <string name="release_date">Release date:</string>
+    <string name="_year">Year</string>
+    <string name="_vote_average">Vote Average</string>
+    <string name="_overview">Overview</string>
+    <string name="overview">Overview</string>
+    <string name="setting_language">Setting Language</string>
+    <string name="added_to_favorite">Added to Favorite</string>
+    <string name="removed_from_favorite">Removed from Favorite</string>
 </resources>

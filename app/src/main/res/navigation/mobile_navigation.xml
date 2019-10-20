@@ -2,7 +2,6 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
     app:startDestination="@+id/navigation_movies">
 
     <fragment
@@ -19,7 +18,7 @@
 
     <fragment
         android:id="@+id/navigation_favorites"
-        android:name="com.dendickys.moviecataloguelocalstorage.ui.favorites.FavoritesFragment"
+        android:name="com.dendickys.moviecataloguelocalstorage.ui.favorites.FavFragment"
         android:label="@string/title_favorites"
         tools:layout="@layout/fragment_favorites" />
 </navigation>

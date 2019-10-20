@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_poster_tvshow"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:contentDescription="@string/poster_tv_show"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_title_tvshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_toEndOf="@id/img_poster_tvshow"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="@string/tvshow_name" />
+
+    <TextView
+        android:id="@+id/tv_release_date_tvshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_tvshow"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_toEndOf="@id/img_poster_tvshow"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="@string/_year" />
+
+    <TextView
+        android:id="@+id/tv_overview_tvshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_release_date_tvshow"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_toEndOf="@id/img_poster_tvshow"
+        android:maxLines="4"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="12sp"
+        tools:text="@string/_overview" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_below="@id/img_poster_tvshow"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorDivider" />
+
+</RelativeLayout>
