@@ -10,14 +10,14 @@ import java.util.List;
 @Dao
 public interface FavMoviesDao {
     @Insert
-    public void addFavMovies(FavMovies favMovies);
+    void addFavMovies(FavMovies favMovies);
 
     @Query("SELECT * FROM movies_favorites")
     List<FavMovies> getAllFavMovies();
 
     @Query("SELECT EXISTS (SELECT 1 FROM movies_favorites WHERE id=:id)")
-    public int isFavorite(int id);
+    int isFavorite(int id);
 
     @Delete
-    public void deleteFavMovies(FavMovies favMovies);
+    void deleteFavMovies(FavMovies favMovies);
 }

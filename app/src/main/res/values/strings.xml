@@ -17,4 +17,5 @@
     <string name="setting_language">Setting Language</string>
     <string name="added_to_favorite">Added to Favorite</string>
     <string name="removed_from_favorite">Removed from Favorite</string>
+    <string name="contentDescription">This is poster image</string>
 </resources>

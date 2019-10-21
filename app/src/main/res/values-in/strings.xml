@@ -18,4 +18,5 @@
     <string name="setting_language">Pengaturan Bahasa</string>
     <string name="added_to_favorite">Ditambahkan ke Favorit</string>
     <string name="removed_from_favorite">Dihapus dari Favorit</string>
+    <string name="contentDescription">Ini merupakan poster gambar</string>
 </resources>
